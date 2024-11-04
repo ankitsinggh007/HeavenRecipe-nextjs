@@ -11,7 +11,6 @@ function mealsDetailpage({ params }) {
     notFound();
   }
 
-  console.log(meal.instructions.replace(/\n/g, "<br/>"), "instruction");
   return (
     <>
       <header className={classes.header}>
