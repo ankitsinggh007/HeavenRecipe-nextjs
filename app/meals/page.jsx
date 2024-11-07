@@ -2,10 +2,18 @@ import Mealsgrid from "@/components/meals/meals-grid";
 import { getMeals } from "@/lib/meals";
 import Link from "next/link";
 import React, { Suspense } from "react";
+
+
+export const metadata={
+  title: "Delicious Meals - Cooking with passion",
+  description: "Discover delicious meals created by you. Share your favorite recipes and cook them yourself."
+}
+
 async function Meals() {
   const meals = await getMeals();
   return <Mealsgrid meals={meals} />;
 }
+
 
 async function Mealspage() {
   return (
