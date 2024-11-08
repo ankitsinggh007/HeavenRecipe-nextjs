@@ -1,7 +1,7 @@
-Next.js Essentials Project
+**Next.js Essentials Project**
 This project is a showcase of essential concepts in Next.js learned during the Next.js Essentials course on Odemy. Below are the key features and concepts implemented.
 
-Project Overview
+**Project Overview**
 This website is built using Next.js, demonstrating a range of modern frontend and backend capabilities. It includes custom components, dynamic routing, server actions, and database integration, making it a comprehensive example of building a full-featured Next.js application.
 
 Key Concepts
@@ -34,15 +34,7 @@ Form Handling & Server Actions
 Developed a custom form using server actions, including secure form submissions and XSS protection.
 Image Picker Component with Preview
 
-Added an image picker component, providing users a preview before upload.
-Screenshots
-Below are some screenshots of the project:
 
-Homepage
-
-Meal Details Page
-
-Custom Form with Image Picker
 
 
 
