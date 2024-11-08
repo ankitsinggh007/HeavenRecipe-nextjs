@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Essentials Project
+This project is a showcase of essential concepts in Next.js learned during the Next.js Essentials course on Odemy. Below are the key features and concepts implemented.
 
-## Getting Started
+Project Overview
+This website is built using Next.js, demonstrating a range of modern frontend and backend capabilities. It includes custom components, dynamic routing, server actions, and database integration, making it a comprehensive example of building a full-featured Next.js application.
 
-First, run the development server:
+Key Concepts
+File-Based Routing & React Server Components
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Organized routes and components based on file structure, utilizing both server and client components where suitable.
+Dynamic Routing & Navigation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Implemented dynamic routing to render content based on URLs, enabling seamless navigation.
+Layouts & Custom Components
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Utilized Next.js layouts for consistent styling and component organization across pages.
+Reserved Filenames
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Configured reserved filenames for custom setups, including error handling and loading states.
+Styling with CSS Modules
 
-## Learn More
+Styled components using CSS Modules, ensuring modular and scoped styling.
+Image Optimization
 
-To learn more about Next.js, take a look at the following resources:
+Used the Next.js Image component for optimized image loading.
+Error Handling & "Not Found" States
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Managed errors and "Not Found" states effectively to improve user experience.
+Database Integration with SQLite
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Connected to a SQLite database, showcasing Next.js’s backend capabilities.
+Form Handling & Server Actions
 
-## Deploy on Vercel
+Developed a custom form using server actions, including secure form submissions and XSS protection.
+Image Picker Component with Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Added an image picker component, providing users a preview before upload.
+Screenshots
+Below are some screenshots of the project:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Homepage
+
+Meal Details Page
+
+Custom Form with Image Picker
+
+
+
